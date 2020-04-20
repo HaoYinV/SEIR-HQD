@@ -6,6 +6,8 @@
 ##########################################################################
 
 #calculation transmissibility
+#The transmissibility codes are adapted from https://github.com/kieshaprem/covid19-agestructureSEIR-wuhan-social-distancing
+
 calculate_transimissibility = function(R0t,recov.rate,pop_age_structure,calculate_transmission_probability=1,contact.matrix)
 {
 
