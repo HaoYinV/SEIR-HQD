@@ -48,6 +48,7 @@ calculate_transimissibility = function(R0t,recov.rate,pop_age_structure,calculat
 
 
 #==============================without intervention model==========================================
+#The intervention model is expanded from single age SEIR model
 SEIHDQR_9age_simulation_no_intervention_model <- function(pars = NULL,constraint = NULL, init = NULL, time = NULL, ...) {
   if (is.null(pars)) {
     stop("undefined 'pars'")
